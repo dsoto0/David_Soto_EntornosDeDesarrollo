@@ -38,9 +38,6 @@ public class Ds_Rectangulo {
     public void setColor(String color) {
         this.color = color;
     }
-    public double calcularArea() {
-        return ladoA * ladoB;
-    }
     @Override
     public String toString() {
         return "Ds_Rectangulo {" +
