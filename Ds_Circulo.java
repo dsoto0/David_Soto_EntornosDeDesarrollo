@@ -29,6 +29,9 @@ public class Ds_Circulo {
     public String getColor() {
         return color;
     }
+    public double calcularArea() {
+        return Math.PI * Math.pow(radio, 2);
+    }
     @Override
     public String toString() {
         return "Circulo { radio=" + radio + ", color='" + color + "' }";
