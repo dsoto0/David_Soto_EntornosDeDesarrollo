@@ -1,5 +1,8 @@
 public class Ds_Circulo {
-
+    
+    public double areaCirculo() {
+        return 3.14 * this.radio * this.radio;
+    }
     private int id;
     private double radio;
     private String color;

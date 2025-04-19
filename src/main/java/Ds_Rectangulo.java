@@ -1,4 +1,9 @@
 public class Ds_Rectangulo {
+
+    public double areaRectangulo() {
+        return this.ladoA * this.ladoB;
+    }
+    
     private int id;
     private double ladoA;
     private double ladoB;
